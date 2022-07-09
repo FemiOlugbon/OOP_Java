@@ -13,5 +13,6 @@ public class Main {
         Dog zeis = new Dog("Zeis", "Brown", 4, true);
         zeis.eat("Corn");
         zeis.bark();
+        zeis.bark(zeis.getName());
     }
 }
