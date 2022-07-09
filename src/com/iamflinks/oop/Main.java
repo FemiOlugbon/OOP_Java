@@ -14,5 +14,8 @@ public class Main {
         zeis.eat("Corn");
         zeis.bark();
         zeis.bark(zeis.getName());
+
+        // Composition in java
+
     }
 }
