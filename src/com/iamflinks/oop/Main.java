@@ -9,5 +9,9 @@ public class Main {
 
         iPhone.playMusic("Champion - FireBoyDML");
         iPhone.playMusic("Gbedu - TIBLAZE");
+
+        Dog zeis = new Dog("Zeis", "Brown", 4, true);
+        zeis.eat("Corn");
+        zeis.bark();
     }
 }
