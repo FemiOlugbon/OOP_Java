@@ -16,6 +16,9 @@ public class Main {
         zeis.bark(zeis.getName());
 
         // Composition in java
-
+        Vehicle mercedes = new Vehicle("Mercedes CLA250", "white", 4, new Engine("Cummings", 6, 7200));
+        System.out.println(mercedes.getModel());
+        Engine engine = mercedes.getEngine();
+        System.out.println(engine.getModel());
     }
 }
